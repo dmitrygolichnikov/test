@@ -1,0 +1,5 @@
+a=str(input())
+if a.find('f')==a.rfind('f'):
+    print(a.find('f'))
+else:
+    print(a.find('f'),a.rfind('f'))
